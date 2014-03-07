@@ -1,0 +1,1 @@
+require 'adefy/core/agent'
