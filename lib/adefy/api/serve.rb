@@ -4,8 +4,7 @@ module Adefy
   module Api
     class Serve < BaseApi
 
-      def serve(id: nil, **options)
-        apikey = id
+      def serve(apikey: nil, **options)
         request(
           expects: 200,
           method: :get,
